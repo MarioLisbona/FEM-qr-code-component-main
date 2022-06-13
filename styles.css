@@ -69,7 +69,7 @@ body {
 
 @media (max-width: 375px) {
     .qr-container {
-        height: 75vh;
+        height: 60vh;
         width: 65vw;
     }
 }
