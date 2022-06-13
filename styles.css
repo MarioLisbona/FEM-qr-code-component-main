@@ -1,11 +1,13 @@
 /* root */
 
 :root {
-    --white: hsl(0, 0%, 100%);
-    --light-grey: hsl(212, 45%, 89%);
-    --greyish-blue: hsl(220, 15%, 55%);
+    --bgContainer: hsl(0, 0%, 100%);
+    --bgBody: hsl(212, 45%, 89%);
+    --infoColor: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
+
+/* /root */
 
 /* resets */
 * {
@@ -16,11 +18,15 @@ body, h1, h2, h3, p, img {
     margin: 0;
 }
 
+/* /resets */
+
+
+
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     line-height: 1.1;
-    background-color: var(--light-grey);
+    background-color: var(--bgBody);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +34,7 @@ body {
 }
 
 .qr-container {
-    background-color: var(--white);
+    background-color: var(--bgContainer);
     height: 65vh;
     width: 20vw;
     border-radius: 1em;
@@ -50,12 +56,14 @@ body {
 }
 
 .title {
+    padding-left: 1em;
+    padding-right: 1em;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
 .info {
-    color: var(--greyish-blue);
+    color: var(--infoColor);
 }
 
 
