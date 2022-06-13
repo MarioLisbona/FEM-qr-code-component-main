@@ -27,6 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: [Add live site URL here](https://mariolisbona.github.io/FEM-qr-code-component-main/)
 
 ## My process
+I created the outter QR code container and then nested 3 child div's for the image, title and information. I then created the styles, starting by resetting the body and set box sizing. Then styled the body and child div's with flexbox.
 
 ### Built with
 
